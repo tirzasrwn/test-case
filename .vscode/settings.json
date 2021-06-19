@@ -1,0 +1,17 @@
+{
+    "C_Cpp.configurationWarnings": "Disabled",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "git.enabled": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $dir$fileNameWithoutExt",
+    },
+    "cmake.configureOnOpen": true
+}
